@@ -42,7 +42,7 @@ export default function Page() {
             name="pass"
           />
         </div>
-        <button formAction={formAction} className="font-medium rounded-lg hover:bg-slate-500 w-full h-full bg-gray-400 px-5 py-2.5">login</button>{" "}
+        <button formAction={formAction} data-testid="loginBtn" className="font-medium rounded-lg hover:bg-slate-500 w-full h-full bg-gray-400 px-5 py-2.5">login</button>{" "}
       </form>
     </div>
   );
